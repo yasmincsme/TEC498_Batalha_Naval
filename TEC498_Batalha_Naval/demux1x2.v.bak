@@ -1,0 +1,6 @@
+module demux2x1(input A, S, output X);
+
+	and And0(X, !S, A);
+	and And1(Y, S, A);
+	
+endmodule

@@ -1,0 +1,6 @@
+module demux64x1();
+
+	input S0, S1, S2, S3, S4, S5;
+
+	demux1x8 demux0(.A(A), .S2(S5), .S1(S4), .S0(S3), .X(wire_0), .Y(wire_1), .Z(wire_2), .W(wire_3), .Q(wire_4), .R(wire_5), .S(wire_6), .T(wire_7));
+	demux1x8 demux1(.A(A), .S2(S5), .S1(S4), .S0(S3), .X(A0), .Y(B0), .Z(C0), .W(D0), .Q(E0), .R(F0), .S(G0), .T(H0));
